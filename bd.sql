@@ -24,26 +24,26 @@ INSERT INTO `acl_grupo` (`id`, `parent_id`, `nome`) VALUES
 (2, 1, 'Developer');
 
 INSERT INTO `acl_permissao` (`id`, `acl_grupo_id`, `acl_recurso_id`, `action`) VALUES
-(1, 1, 1, 'index'),
-(2, 1, 1, 'json'),
+(1, 1, 1, 'index')
+(2, 1, 1, 'grid-api'),
 (3, 1, 1, 'editar'),
 (4, 1, 1, 'excluir'),
 (5, 1, 1, 'novo'),
 (6, 1, 2, 'index'),
-(7, 1, 2, 'json'),
+(7, 1, 2, 'grid-api'),
 (8, 1, 2, 'editar'),
 (9, 1, 2, 'excluir'),
 (10, 1, 2, 'novo'),
 (11, 1, 3, 'index'),
-(12, 1, 3, 'json'),
+(12, 1, 3, 'grid-api'),
 (13, 1, 3, 'excluir'),
 (14, 1, 3, 'novo'),
 (15, 1, 4, 'index'),
-(16, 1, 4, 'json'),
+(16, 1, 4, 'grid-api'),
 (17, 1, 4, 'editar'),
 (19, 1, 4, 'novo'),
 (20, 1, 5, 'index'),
-(21, 1, 5, 'json'),
+(21, 1, 5, 'grid-api'),
 (22, 1, 5, 'detalhes'),
 (23, 1, 6, 'limpa-cache');
 
